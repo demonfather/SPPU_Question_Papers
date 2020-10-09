@@ -10,17 +10,20 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="69dp"
-        android:background="#08BCD8"
+        android:layout_height="75dp"
+        android:background="#03A9F4"
         tools:ignore="MissingConstraints">
 
         <TextView
             android:id="@+id/toolbarText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
             android:gravity="center|center_horizontal"
-            android:text="ToolBar"
-            android:textSize="24sp"
+            android:text="Papers"
+            android:textAlignment="center"
+            android:textSize="26sp"
+            android:textStyle="bold"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="18dp">
 
@@ -33,11 +36,14 @@
         android:id="@+id/recView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="90dp"
-        android:background="#00FFFFFF"
+        android:layout_marginTop="75dp"
+        android:background="#EEF8FD"
+        android:paddingTop="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
